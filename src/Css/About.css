@@ -1,0 +1,64 @@
+.aboutus{
+    background-image: url("https://images.pexels.com/photos/205316/pexels-photo-205316.png");
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.imga{
+  
+
+}
+
+
+.name{
+    
+    font-size: 80px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: black;
+    
+
+    
+}
+.name span{
+    font-size: 40px;
+    margin-bottom: 350px;
+    
+}
+.aboutus h4{
+    padding-bottom: 100px;
+   
+    
+}
+@media only  screen and (max-width: 768px) {
+   
+    
+    .name{
+    
+        font-size: 35px;
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        color: black;
+        width: 300px;
+    
+        
+    }
+    .name span{
+        font-size: 20px;
+    }
+    .aboutus h4{
+        font-size: 15px;
+    }
+    .aboutus h4{
+        padding-bottom: 10px;
+       
+        
+    }
+    
+}

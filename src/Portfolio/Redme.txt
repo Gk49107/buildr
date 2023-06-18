@@ -1,0 +1,4 @@
+npm i @react-spring/parallax
+npm i react-scroll
+
+npm i Aos

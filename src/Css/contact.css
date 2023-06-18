@@ -1,0 +1,50 @@
+.contact{
+  justify-content: center;  
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  background-color: black;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+  color: white;
+}
+.content{
+    border-top: 1px white solid;
+    border-right:1px white  solid ;
+    border-left:1px white solid ;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    width: 600px;
+    justify-content: center;  
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+
+}
+.content {
+    padding-top: 20px;
+}
+.content h4{
+    padding-top: 20px;
+}
+.contact h4 span {
+  color: orangered;
+}
+.contact .icons {
+    font-size: 30px;
+     justify-content: space-between;
+     display: flex;
+     width: 150px;
+     padding-bottom: 30px;
+     padding-top: 20px;
+
+}
+
+@media only screen and (max-width: 768px){
+    .content{
+        width: 300px;
+    }
+
+
+
+}
